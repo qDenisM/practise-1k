@@ -1,0 +1,116 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-the-best-digital {
+  padding: 150px 150px;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF7F4;
+}
+
+.main-the-best-digital-title {
+  font-size: 48px;
+}
+
+.main-the-best-digital-text {
+  padding: 10px 0 50px 0;
+  color: #7B7B7B;
+}
+
+.orange-text {
+  color: #FF5300;
+}
+
+.btn-contact-us {
+  width: 150px;
+  height: 50px;
+  background-color: #FF5300;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  -webkit-box-shadow: 4px 5px 15px 0px rgba(255, 83, 0, 0.4);
+  -moz-box-shadow: 4px 5px 15px 0px rgba(255, 83, 0, 0.4);
+  box-shadow: 4px 5px 15px 0px rgba(255, 83, 0, 0.4);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-the-best-digital-img-container-image {
+  height: 400px;
+}
+
+.main-about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 100px;
+}
+
+.main-about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.main-about-us-desc {
+  display: flex;
+}
+
+.main-about-us-desc-img-container {
+  padding-top: 50px;
+}
+
+.main-about-us-desc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 40%;
+  & h6 {
+    font-size: 16px;
+    font-weight: 300;
+    color: #7B7B7B;
+  }
+  & .main-about-us-desc-container-text {
+    color: #7B7B7B;
+    font-size: 16px;
+  }
+}
+
+.main-about-us-desc-container-title {
+  font-size: 39px;
+}
+
+
+.main-about-us-cards-leader,
+.main-about-us-cards-skill,
+.main-about-us-cards-professional,
+.main-about-us-cards-experience {
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  text-align: center;
+  width: 270px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  & img {
+    height: 100px;
+  }
+}
+
+.main-about-us-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}

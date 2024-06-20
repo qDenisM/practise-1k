@@ -1,0 +1,34 @@
+.light-dark-theme {
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  align-items: center;
+}
+
+.sub-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.light-dark-theme {
+  border: 0;
+  background-image: url('./assets/Dark.svg');
+  background-repeat: no-repeat;
+  background-position: -2px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fff;
+}
