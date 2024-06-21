@@ -22,22 +22,34 @@ export default function Footer() {
 					</p>
 					<ul className='footer-main-col-digiency-social-list'>
 						<li className='footer-main-col-digiency-social-item'>
-							<a href=''>
+							<a
+								href='https://www.facebook.com/facebook.com'
+								target='_blank'
+								rel='noreferrer'
+							>
 								<img src={facebookIcon} alt='Facebook' />
 							</a>
 						</li>
 						<li className='footer-main-col-digiency-social-item'>
-							<a href=''>
+							<a
+								href='https://www.instagram.com/'
+								target='_blank'
+								rel='noreferrer'
+							>
 								<img src={instagramIcon} alt='Instagram' />
 							</a>
 						</li>
 						<li className='footer-main-col-digiency-social-item'>
-							<a href=''>
+							<a href='https://x.com/' target='_blank' rel='noreferrer'>
 								<img src={twitterIcon} alt='Twitter' />
 							</a>
 						</li>
 						<li className='footer-main-col-digiency-social-item'>
-							<a href=''>
+							<a
+								href='https://www.skype.com/en/'
+								target='_blank'
+								rel='noreferrer'
+							>
 								<img src={skypeIcon} alt='Skype' />
 							</a>
 						</li>
@@ -76,7 +88,7 @@ export default function Footer() {
 						varius viverra in.
 					</p>
 					<form action='' className='footer-main-col-newsletter-form'>
-						<input type='text' name='' id='' placeholder='info@gmail.com'/>
+						<input type='text' name='' id='' placeholder='info@gmail.com' />
 						<input type='button' value='' />
 					</form>
 				</div>
