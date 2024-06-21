@@ -1,0 +1,99 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #373737;
+  color: #fff;
+  & .footer-copy {
+    background-color: #FF5300;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+}
+
+.footer-main {
+  display: flex;
+  width: 80%;
+  
+  padding: 60px 0;
+  gap: 150px;
+}
+
+.footer-main-col-digiency-title,
+.footer-main-col-company-title,
+.footer-main-col-services-title,
+.footer-main-col-newsletter-title {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.footer-main-col-digiency-text {
+  margin-bottom: 15px;
+  width: 150%;
+}
+
+.footer-main-col-company-list,
+.footer-main-col-services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-main-col-digiency-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-main-col-digiency-social-item {
+  background-color: #fff;
+  padding: 10px;
+  & img {
+    height: 30px;
+  }
+  & a {
+    display: block;
+    height: 30px;
+  }
+}
+
+.footer-main-col-newsletter-text {
+  margin-bottom: 15px;
+}
+
+.footer-main-col-newsletter-form {
+  width: 140%;
+  display: flex;
+}
+
+.footer-main-col-newsletter input[type='text'] {
+  width: 50%;
+  height: 60px;
+  border: 1px solid #FF5300;
+  background-color: #373737;
+  color: white;
+  font-size: 16px;
+  padding: 10px ;
+}
+
+.footer-main-col-newsletter input[type='button'] {
+  width: 20%;
+  height: 60px;
+  background-color: #FF5300;
+  border: none;
+  background-image: url('./assets/send-plane-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-copy-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

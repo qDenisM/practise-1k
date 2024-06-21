@@ -5,11 +5,11 @@ import mainLogo from './assets/LOGO.svg'
 
 export default function Header() {
   return (
-		<header className='header'>
+		<header className='header' id='header'>
 			<section className='menu'>
 				<div className='logo-container'>
-          <img src={mainLogo} alt="logo"/>
-        </div>
+					<img src={mainLogo} alt='logo' />
+				</div>
 				<ul className='sub-menu'>
 					<li className='sub-menu-list'>
 						<a href='../public/index.html'>Home</a>
@@ -30,8 +30,7 @@ export default function Header() {
 						<a href='../public/index.html'>Contact Us</a>
 					</li>
 				</ul>
-				<button className='light-dark-theme'>
-				</button>
+				<button className='light-dark-theme'></button>
 			</section>
 		</header>
 	)
