@@ -1,7 +1,7 @@
 import React from "react";
-import './index.css'
-import './header.css'
-import mainLogo from './assets/LOGO.svg'
+import '../index.css'
+import '../header.css'
+import mainLogo from '../assets/LOGO.svg'
 
 export default function Header() {
   return (
@@ -11,22 +11,22 @@ export default function Header() {
 					<img src={mainLogo} alt='logo' />
 				</div>
 				<ul className='sub-menu'>
-					<li className='sub-menu-list'>
+					<li className='sub-menu-item'>
 						<a href='../public/index.html'>Home</a>
 					</li>
-					<li className='sub-menu-list'>
+					<li className='sub-menu-item'>
 						<a href='../public/index.html'>About Us</a>
 					</li>
-					<li className='sub-menu-list'>
+					<li className='sub-menu-item'>
 						<a href='../public/index.html'>Our Work</a>
 					</li>
-					<li className='sub-menu-list'>
+					<li className='sub-menu-item'>
 						<a href='../public/index.html'>Clients</a>
 					</li>
-					<li className='sub-menu-list'>
+					<li className='sub-menu-item'>
 						<a href='../public/index.html'>Our Blog</a>
 					</li>
-					<li className='sub-menu-list'>
+					<li className='sub-menu-item'>
 						<a href='../public/index.html'>Contact Us</a>
 					</li>
 				</ul>

@@ -39,6 +39,14 @@
   box-shadow: 4px 5px 15px 0px rgba(255, 83, 0, 0.4);
   border-radius: 5px;
   cursor: pointer;
+  &:hover {
+    filter: brightness(117.5%);
+    transition: .3s;
+  }
+  &:not(:hover) {
+    filter: brightness(100%);
+    transition: .3s;
+  }
 }
 
 .main-the-best-digital-img-container-image {

@@ -32,3 +32,13 @@
   padding: 10px;
   background-color: #fff;
 }
+
+.sub-menu-item a:hover {
+  color: #7B7B7B;
+  transition: .3s;
+}
+
+.sub-menu-item a:not(:hover) {
+  color: #000;
+  transition: .3s;
+}

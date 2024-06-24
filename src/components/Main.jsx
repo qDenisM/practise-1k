@@ -1,12 +1,12 @@
 import React from 'react'
-import './index.css'
-import './main.css'
-import mainPhoto from './assets/main-photo.svg'
-import mainPhoto2 from './assets/main-photo2.svg'
-import cardLeader from './assets/card-leader.svg'
-import cardSkill from './assets/card-skill.svg'
-import cardProfessional from './assets/card-professional.svg'
-import cardExperience from './assets/card-experience.svg'
+import '../index.css'
+import '../main.css'
+import mainPhoto from '../assets/main-photo.svg'
+import mainPhoto2 from '../assets/main-photo2.svg'
+import cardLeader from '../assets/card-leader.svg'
+import cardSkill from '../assets/card-skill.svg'
+import cardProfessional from '../assets/card-professional.svg'
+import cardExperience from '../assets/card-experience.svg'
 
 export default function Main() {
 	return (
