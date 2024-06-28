@@ -6,7 +6,7 @@ import mainLogo from '../assets/LOGO.svg'
 export default function Header() {
   return (
 		<header className='header' id='header'>
-			<section className='menu'>
+			<nav className='menu'>
 				<div className='logo-container'>
 					<img src={mainLogo} alt='logo' />
 				</div>
@@ -31,7 +31,7 @@ export default function Header() {
 					</li>
 				</ul>
 				<button className='light-dark-theme'></button>
-			</section>
+			</nav>
 		</header>
 	)
 }
